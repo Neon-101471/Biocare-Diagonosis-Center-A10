@@ -1,10 +1,11 @@
 import { Link } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
+import './Login.css';
 
 const Login = () => {
     const { googleSignIn,handleLogIn,handleEmail,handlePassword} = useAuth();
     return (
-        <div className="containerm mt-5">
+        <div className="containerm mt-5 login-section">
             <h1 className="text-primary text-center fw-bold my-5">Login</h1>
              <form onSubmit={handleLogIn}>
                     <div className="row mb-3">
@@ -22,7 +23,7 @@ const Login = () => {
                     <button type="submit" className="btn btn-primary">Login</button>
             </form>
             <button type="submit" onClick={googleSignIn} className="btn btn-primary mt-3">Google Sign In</button>
-            <p className="mt-3">New to clinically?<Link to="/signup">Sign Up</Link></p>
+            <p className="mt-3">New to BioCare Hospital? <Link to="/signup">Sign Up</Link></p>
         </div>
     );
 };
