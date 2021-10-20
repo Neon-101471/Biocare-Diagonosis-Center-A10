@@ -1,10 +1,10 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyCUxSz3h08DfDyW_JXKGnaREmQhha2Gybo",
-    authDomain: "clinically-authentication.firebaseapp.com",
-    projectId: "clinically-authentication",
-    storageBucket: "clinically-authentication.appspot.com",
-    messagingSenderId: "670783205438",
-    appId: "1:670783205438:web:cfcbc9e4e9a369dc18a16f"
-};
+    apiKey: "AIzaSyD8nEIZXjibqhzE-0Yj3lz0kzTw9JXJ8BY",
+    authDomain: "biocare-diagonosis-center.firebaseapp.com",
+    projectId: "biocare-diagonosis-center",
+    storageBucket: "biocare-diagonosis-center.appspot.com",
+    messagingSenderId: "640839781074",
+    appId: "1:640839781074:web:487580198fb5f524e87b0b"
+  };
 
 export default firebaseConfig;
