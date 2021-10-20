@@ -10,7 +10,7 @@ const Banner = () => {
                     <div className="title">
                         <h1 className="text-dark">Welcome To BioCare</h1>
                             <h3 className="text-dark">Hospital & Clinic</h3>
-                            <h6 className="text-dark">We provide you all kind of medical services,which is best in the city.Our diagnoses <br /> report are the best without any doubt.</h6>
+                            <h6 className="text-dark">We provide you all kind of medical services, which is best in the city. Our diagnoses <br /> report are the best without any doubt.</h6>
                   </div>
                 </div>
             </div>
